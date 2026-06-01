@@ -1,0 +1,28 @@
+@inherits LayoutComponentBase
+@using Portfolio.Overlay
+
+<div class="page">
+    <div class="container-left">
+
+        <div id="title">
+            <Title />
+        </div>
+
+        <div id="socials">
+            <Socials />
+        </div>
+    </div>
+
+    <div class="container-right">
+        <nav>
+            <Navbar />
+        </nav>
+
+        <main>
+            <article>
+                @Body
+            </article>
+        </main>
+    </div>
+    
+</div>

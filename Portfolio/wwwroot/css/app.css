@@ -2,8 +2,18 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1:focus {
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
     outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center; 
+}
+
+h1:focus {
+    transform: scale(1.075);
 }
 
 a, .btn-link {
