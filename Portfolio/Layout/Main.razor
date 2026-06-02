@@ -2,27 +2,29 @@
 @using Portfolio.Overlay
 
 <div class="page">
-    <div class="container-left">
+    <header class="container-top">
 
         <div id="title">
             <Title />
         </div>
 
-        <div id="socials">
-            <Socials />
-        </div>
-    </div>
-
-    <div class="container-right">
-        <nav>
+        <nav id="nav">
             <Navbar />
         </nav>
 
-        <main>
+        <div id="spacer"></div>
+    </header>
+
+    <div class="container-right">
+        @* <div id="socials">
+            <Socials />
+        </div> *@
+
+        @* <main>
             <article>
                 @Body
             </article>
-        </main>
+        </main> *@
     </div>
     
 </div>
