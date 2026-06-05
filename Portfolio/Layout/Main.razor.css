@@ -20,12 +20,13 @@
 }
 
 .container-bottom {
+    width: 100vw;
     height: 80vh;
     display: flex;
     flex-direction: row;
     align-items: center;  
+    justify-content: space-between;
     padding: 5rem 10vw;
-    /* flex-grow: 1; */
 }
 
 
@@ -40,16 +41,17 @@
 
 #socials {
     height: 80vh;
-    width: 20vw;
+    width: 15vw;
     padding-bottom: 5rem;
 
     display: flex;
     align-items: flex-end;  
     justify-content: center;
 }
+
 #content {
     height: 80vh;
-    width: 80vw;
+    width: 70vw;
 
     display: flex;
     justify-content: center;
